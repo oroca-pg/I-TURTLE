@@ -7,7 +7,8 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-catkin_python_setup()
+#if there's setup.py, uncomment it
+#catkin_python_setup()
 
 add_service_files(
   FILES
