@@ -15,7 +15,7 @@ def dust_client(req):
         print "Service call failed: %s"%e
 
 def usage():
-    return "%s [str]"%sys.argv[0]
+    return "put [string1]"
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
